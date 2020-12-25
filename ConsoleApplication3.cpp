@@ -6,31 +6,22 @@ void print()
     //Call operator << for object with type std::cout
     std::cout << "Hello Skillbox\n";
 }
-/* 
-**
-* *
-* *
-* 123
-*/
+
+int print10()
+{
+    std::cout << "10\n";
+    return 10;
+}
+
+
 int main()
 {
-    int x = 100;
-    3 + 7;
-    int y = x + 100;
+    print();
+    print();
+    print();
 
-    int b = 0;
-    b = b + 2;
+    std::cout << print10();
 
-    int test;
-    test = 100500;
-
-    int test2 = 1005001;
-
-    int mult = x * y;
-
-    int random = 1005;
-
-    std::cout << random;
-
+    return 0;
 }
 
